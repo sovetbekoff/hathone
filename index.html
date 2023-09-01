@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="./apadtive.css" />
+    <link rel="stylesheet" href="./styleMinor.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/billabong" rel="stylesheet" />
+    <title>Instagram</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="inst">Instagram</div>
+        <div class="menu">
+          <div class="menu_list">
+            <div class="dom">
+              <img src="./img/home.png" alt="#" class="home_img" />
+              <div class="home">Главная</div>
+            </div>
+            <div class="searchh">
+              <img src="./img/search.png" alt="#" class="search_img" />
+              <div class="search">
+                <input type="text" id="search-input" />
+              </div>
+            </div>
+            <div class="safarii">
+              <img src="./img/compass.png" alt="#" class="safari_img" />
+              <div class="safari">Интересное</div>
+            </div>
+            <div class="directt">
+              <img src="./img/messenger (2).png" alt="#" class="direct_img" />
+              <div class="direct">Сообщения</div>
+            </div>
+            <div class="content-nott">
+              <img src="./img/heart.png" alt="#" class="content_img" />
+              <div class="notifications">Уведомления</div>
+            </div>
+            <div class="creatte">
+              <img src="./img/add.png" alt="#" class="create_img" />
+              <div class="create">Создать</div>
+            </div>
+            <div class="profille">
+              <img src="./img/account.png" alt="#" class="profile_img" />
+              <div class="profile">Профиль</div>
+            </div>
+            <div class="yet">
+              <img src="./img/yetimg.png" alt="#" class="yet_img" />
+              <div class="yet">Ещё</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content-info">
+          <div class="info-pfp">
+            <img
+              src="https://sun9-81.userapi.com/impg/k0-KYILGwupS86bo6aQWBLQThZOBa_hv_tqcew/7rA3VKlbbJw.jpg?size=510x510&quality=96&sign=d51268350f7009eac44ade05d95d1563&c_uniq_tag=xcLsYO7h5F8a0T66dkxVBXvS8-nw6_SIf6VNNexlSaQ&type=album"
+              alt=""
+            />
+          </div>
+          <div class="info-block">
+            <div class="nickname">
+              <p>Beka</p>
+              <!-- <button class="edit-profile-btn">
+                                Edit Profile
+                            </button> -->
+            </div>
+            <div class="follower-info">
+              <p>1 publications</p>
+              <p>44 followers</p>
+              <p>45 follows</p>
+            </div>
+            <div class="acc-descr">
+              <p>Beka</p>
+              <p>dead incide</p>
+            </div>
+          </div>
+        </div>
+        <!--? Account info  -->
+        <!--! Highlights -->
+        <div class="highlights">
+          <button class="highlight-button">
+            <img src="./icons/highlight-icon.png" alt="" />
+          </button>
+        </div>
+        <!--TODO Highlights modal -->
+        <dialog id="highlight-add">
+          <form method="dialog">
+            <section>
+              <input type="text" name="" id="highlight-url" placeholder="img" />
+            </section>
+            <menu>
+              <button id="cancel" type="reset">close</button>
+              <button id="highlightAdd">add</button>
+            </menu>
+          </form>
+        </dialog>
+        <!--TODO Highlights modal -->
+
+        <!--? Highlights -->
+
+        <!-- * PAGINATION  -->
+        <nav aria-label="Page navigation example">
+          <ul class="pagination d-flex justify-content-center">
+            <li class="page-item prev">
+              <a class="page-link" href="#"><</a>
+            </li>
+            <div class="pagination-list d-flex"></div>
+            <li class="page-item next">
+              <a class="page-link" href="#">></a>
+            </li>
+          </ul>
+        </nav>
+        <!-- * PAGINATION  -->
+
+        <div class="photos-block">
+          <hr />
+          <div class="photos-buttons">
+            <div class="btn_publick">
+              <img src="./img/icon4.png" alt="#" class="img_btn" />
+              <button class="publication-btn">Публикации</button>
+            </div>
+            <div class="save_btn">
+              <img src="./img/ribbon.png" alt="#" class="save_img" />
+              <button class="saves-btn">Сохраненное</button>
+            </div>
+            <div class="noded_btn">
+              <img src="./img/mark.png" alt="#" class="noded_img" />
+              <button class="noted-btn">Отметки</button>
+            </div>
+          </div>
+          <div class="photos">
+            <div class="photo-item"></div>
+          </div>
+        </div>
+
+        <!-- TODO PHOTO MODAL -->
+        <dialog id="photo-add" class="modal">
+          <form method="dialog">
+            <section>
+              <input
+                class="likes"
+                type="text"
+                name=""
+                id="likes"
+                placeholder="likes"
+              />
+              <input
+                class="comments"
+                type="text"
+                name=""
+                id="comments"
+                placeholder="comments"
+              />
+              <input
+                class="views"
+                type="text"
+                name=""
+                id="views"
+                placeholder="views"
+              />
+              <input
+                class="img_url"
+                type="text"
+                name=""
+                id="photo"
+                placeholder="img url"
+              />
+            </section>
+            <menu>
+              <button id="cancel2" type="reset" class="btn_close">close</button>
+              <button id="photoAdd" class="btn_add">add</button>
+            </menu>
+          </form>
+        </dialog>
+        <!--TODO PHOTO MODAL -->
+
+        <!-- TODO EDIT PHOTO MODAL -->
+        <dialog id="photo-edit">
+          <form method="dialog" class="edit-form">
+            <section class="edit-section">
+              <input type="text" name="" id="editLikes" placeholder="likes" />
+              <input
+                type="text"
+                name=""
+                id="editComments"
+                placeholder="comments"
+              />
+              <input type="text" name="" id="editViews" placeholder="views" />
+              <input type="text" name="" id="editPhoto" placeholder="img url" />
+            </section>
+            <menu>
+              <button id="cancel3" type="reset">close</button>
+              <button id="photo-edit-btn">Edit</button>
+            </menu>
+          </form>
+        </dialog>
+        <!--TODO EDITPHOTO MODAL -->
+
+        <!--? Photos BLOCK -->
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

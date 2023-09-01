@@ -1,0 +1,249 @@
+/* ! CONTINER START */
+@font-face {
+  font-family: Billabong;
+  src: url(https://fonts-online.ru/fonts/billabong);
+}
+
+.container {
+  background-color: #ffff;
+  width: 1200px;
+  margin: 0 auto;
+}
+.line {
+  border-right: 5px solid rgb(82, 76, 76);
+  height: 1000px;
+}
+
+.inst {
+  margin: 0px 0px 19px;
+  padding: 25px 12px 16px;
+  font-family: "Billabong", sans-serif;
+  font-size: 2.5rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.inst {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.sidebar {
+  width: 25%;
+  margin: 0px 0px 19px;
+  font-family: "Poppins", sans-serif;
+}
+/* ? HOME */
+.dom {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.dom:hover {
+  background-color: rgb(202, 199, 199);
+  cursor: pointer;
+  transition: 0.8s;
+}
+.home {
+  padding: 12px;
+}
+.home_img {
+  width: 20px;
+  height: 20px;
+}
+/* ? */
+.search {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.searchh {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.searchh:hover {
+  background-color: rgb(202, 199, 199);
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.search_img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+/* ? */
+
+.safari {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.safarii {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.safarii:hover {
+  background-color: rgb(202, 199, 199);
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.safari_img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+
+.direct {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.directt {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.directt:hover {
+  background-color: rgb(202, 199, 199);
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.direct_img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+
+.content-not {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.content-nott {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.content-nott:hover {
+  background-color: rgb(202, 199, 199);
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.notifications {
+  padding: 12px;
+}
+
+.content_img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+
+.creatte {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.create {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.creatte:hover {
+  background-color: rgb(202, 199, 199);
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.create_img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+
+.profille {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.profile {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.profille:hover {
+  background-color: rgb(202, 199, 199);
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.profile_img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+
+.yet {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.yet:hover {
+  background-color: rgb(202, 199, 199);
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.yet_img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+
+.yet_img:hover {
+  background-color: rgb(202, 199, 199);
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+/* ! CONTAINER END */
