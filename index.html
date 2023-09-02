@@ -37,6 +37,10 @@
               <img src="./img/compass.png" alt="#" class="safari_img" />
               <div class="safari">Интересное</div>
             </div>
+            <div class="safarii">
+              <img src="./img//reels.png" alt="#" class="safari_img" />
+              <div class="safari">reels</div>
+            </div>
             <div class="directt">
               <img src="./img/messenger (2).png" alt="#" class="direct_img" />
               <div class="direct">Сообщения</div>
@@ -63,29 +67,45 @@
       <div class="content">
         <div class="content-info">
           <div class="info-pfp">
-            <img
-              src="https://sun9-81.userapi.com/impg/k0-KYILGwupS86bo6aQWBLQThZOBa_hv_tqcew/7rA3VKlbbJw.jpg?size=510x510&quality=96&sign=d51268350f7009eac44ade05d95d1563&c_uniq_tag=xcLsYO7h5F8a0T66dkxVBXvS8-nw6_SIf6VNNexlSaQ&type=album"
-              alt=""
-            />
+            <img src="./img/myAva.jpg" alt="" />
           </div>
           <div class="info-block">
             <div class="nickname">
               <p>Beka</p>
-              <!-- <button class="edit-profile-btn">
-                                Edit Profile
-                            </button> -->
+              <img
+                src="./img//Instagram-Verified-Badge-PNG-File.png"
+                alt=""
+                class="varification"
+              />
+              <!-- <button class="edit-profile-btn">Edit Profile</button> -->
             </div>
             <div class="follower-info">
-              <p>1 publications</p>
-              <p>44 followers</p>
-              <p>45 follows</p>
+              <p><span>1</span> публикация</p>
+              <p><span id="followers">1000</span>подписчики</p>
+              <p><span id="following">500</span>подписки</p>
             </div>
             <div class="acc-descr">
               <p>Beka</p>
-              <p>dead incide</p>
+              <p>dead incie</p>
             </div>
           </div>
         </div>
+        <dialog id="follower-edit">
+          <form method="dialog">
+            <section>
+              <label for="editFollowersInput">Подписчики:</label>
+              <input type="number" id="editFollowersInput" />
+            </section>
+            <section>
+              <label for="editFollowingInput">Подписки:</label>
+              <input type="number" id="editFollowingInput" />
+            </section>
+            <menu>
+              <button id="cancelEditFollower" type="reset">Закрыть</button>
+              <button id="saveEditFollower" class="btn_add">Сохранить</button>
+            </menu>
+          </form>
+        </dialog>
         <!--? Account info  -->
         <!--! Highlights -->
         <div class="highlights">
@@ -93,6 +113,9 @@
             <img src="./icons/highlight-icon.png" alt="" />
           </button>
         </div>
+
+        <!-- р -->
+
         <!--TODO Highlights modal -->
         <dialog id="highlight-add">
           <form method="dialog">
@@ -106,6 +129,7 @@
           </form>
         </dialog>
         <!--TODO Highlights modal -->
+        <!--  -->
 
         <!--? Highlights -->
 
@@ -127,15 +151,20 @@
           <hr />
           <div class="photos-buttons">
             <div class="btn_publick">
-              <img src="./img/icon4.png" alt="#" class="img_btn" />
+              <img src="./img//insPost.webp" alt="#" class="img_btn" />
               <button class="publication-btn">Публикации</button>
             </div>
             <div class="save_btn">
-              <img src="./img/ribbon.png" alt="#" class="save_img" />
+              <img src="./img//insSave.png" alt="#" class="save_img" />
               <button class="saves-btn">Сохраненное</button>
             </div>
             <div class="noded_btn">
-              <img src="./img/mark.png" alt="#" class="noded_img" />
+              <img
+                src="./img/marks.png"
+                alt="#"
+                class="noded_img"
+                style="width: 20px; height: 19px; margin-top: 2px"
+              />
               <button class="noted-btn">Отметки</button>
             </div>
           </div>
@@ -148,6 +177,13 @@
         <dialog id="photo-add" class="modal">
           <form method="dialog">
             <section>
+              <input
+                class="post-title"
+                type="text"
+                name=""
+                id="post-title"
+                placeholder="Название поста"
+              />
               <input
                 class="likes"
                 type="text"
@@ -201,7 +237,7 @@
             </section>
             <menu>
               <button id="cancel3" type="reset">close</button>
-              <button id="photo-edit-btn">Edit</button>
+              <button id="photo-edit-btn">Save</button>
             </menu>
           </form>
         </dialog>
